@@ -38,5 +38,7 @@
 }
 .Appbody{
   color: black;
-  background-color: white;
+  background-color: yellow;
+  width: 100vh;
+
 }

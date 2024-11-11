@@ -1,17 +1,14 @@
-.Bar{
-    color: white;
-    background-color: black;
+.barButton{
     width: 20%;
-    display: inline-block;
+    display: block;
     text-decoration-line: none;
     text-align: center;
+    background: black;
 }
-.body{
-    background-color: black;
-    color:  white;
-}
-.Title{
+
+.title{
     text-align: center;
+    width: 100vh;
     color: white;
     background-color: black;
     margin: 0px;
@@ -20,8 +17,12 @@
 .link{
     text-decoration:"none"; 
     text-decoration-line: none;
-    color: white;
     background-color: black;
+    color: white;
+}
+link:hover{
+    background-color: white;
+    color: black;
 }
 
 nav {

@@ -1,4 +1,4 @@
-body {
+main {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,38 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+caption{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+}
+body{
+  background-color: white;
+  color: black;
+  width: 70%;
+  height: 100vh;
+  margin: 0px;
+}
+.subTitle{
+  width: 20%;
+}
+aside{
+  background-color: black;
+  color : white;
+  width: 30%;
+  height: 100vh;
+  border-left: black;
+  border-right: white;
+}
+.list{
+  list-style-type: none;
+}
+.mainBlock{
+  display: flex;
 }
